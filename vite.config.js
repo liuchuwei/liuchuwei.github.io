@@ -1,3 +1,7 @@
+module.exports = {
+  publicPath: '/liuchuwei.github.io/',
+}
+
 import { fileURLToPath, URL } from 'node:url'
 
 import { defineConfig } from 'vite'
