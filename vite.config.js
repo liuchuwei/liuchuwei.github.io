@@ -1,7 +1,3 @@
-module.exports = {
-  publicPath: '/liuchuwei.github.io/',
-}
-
 import { fileURLToPath, URL } from 'node:url'
 
 import { defineConfig } from 'vite'
@@ -10,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/",
   plugins: [
     vue(),
     vueDevTools(),
